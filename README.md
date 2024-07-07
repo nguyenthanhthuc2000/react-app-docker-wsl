@@ -20,6 +20,5 @@ Make sure you have Docker installed on your machine.
 ```bash
 git clone https://github.com/nguyenthanhthuc2000/my-react-app.git
 cd my-react-app
-
-### `docker build -t my-app .`
-### `docker run -p 3000:3000 -v $(pwd)/my-app-react:/var/www/app my-app`
+docker build -t my-app .
+docker run -p 3000:3000 -v $(pwd)/my-app-react:/var/www/app my-app
